@@ -4,13 +4,200 @@
     <meta charset="utf-8">
     <title>Maszyny Rolnicze</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
-    <script src="main.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>  
+    <script src="typed.js"></script>  
+    
 </head>
 <body>
-    <h1 id="clickMe">Sample Click Handler</h1>
-    <p>This file was generated from the Brackets New Project extension<br/>
-    You can open this file in Brackets and start editing right away!</p>
+   <container>
+       <a href="#"  alt="Przewiń do góry" style="display: block;" id="gora" title="Wróć na sama górę"><i class="icon-chevron-thin-up"></i></a>
+           
+         <div class="rowHeader ">
+		<div class="col" id="header_Logo">
+						<a href="#" title="PHU. Zwolski - maszyny rolnicze, sprzedaż używanych maszyn rolniczych "><img  class="logo"src="img/logoo.png"  alt="PHU. Zwolski - maszyny rolnicze, sprzedaż używanych maszyn rolniczych " /></a>
+			 <button id="menu-button">MENU</button>
+		</div>
+		<div class="col" id="search">
+			<form class="form" role="search" method="GET" action="https://www.roltechagro.pl" >
+				<input class="formsearch" autocomplete="off" type="text" value="" name="s" placeholder="Wyszukaj ciągnik, maszynę..."/>
+				<button type="submit" class="search_button">Szukaj</button>
+			</form>
+		</div>
+		<div class="col" id="contact">
+			<div class="header_contact">
+			 
+				<small>Masz pytania ? <b>Zadzwoń lub napisz</b></small>
+                          <br>
+              <div id="kontakt">
+                           
+                             <img src="img/tele.png" alt="telefon" width="80px" class="telpng">
+								<a class="tel" href="tel:+48 667 237 992">+48 667 237 992</a>
+				<a class="mail" href="mailto:zwolskim@o2.pl">zwolskim@o2.pl</a>
+			</div>
+		</div>
+	</div>
+       	</div>
+       	<br>
+       	<nav id="menuHeader">
+              
+              <ul id="menu">
+                 
+                  <li><a href="">Ciągniki</a>
+                   <ul>
+                       <li><a href="">Ursus</a></li>
+                       <li><a href="">New Holland</a></li>
+                       <li><a href="">Fendt</a></li>
+                       <li><a href="">Case</a></li>
+                       <li><a href="">Pozostałe</a></li>
+                   </ul>
+                  </li>
+                  <li><a href="">Kombajny</a>
+                   <ul>
+                       <li><a href="">New Holland</a></li>
+                       <li><a href="">Massey Ferguson</a></li>
+                       <li><a href="">Bizon</a></li>
+                       <li><a href="">Pozostałe</a></li>
+                       
+                    </ul>
+                   </li>
+                  <li><a href="">Pozostałe Maszyny</a>
+                   <ul>
+                       <li><a href="">Pługi</a></li>
+                       <li><a href="">Glebogryzarki</a></li>
+                       <li><a href="">Siewniki</a></li>
+                       <li><a href="">Inne</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">Część do Maszyn</a></li>
+                  <li><a href="">Transport</a></li>
+              </ul>
+       	    
+       	</nav>
+<br><br><br><br>
+      
+       <div id="galeria">
+          <div class="imgToRotate" >
+          
+           <img class="imgToRotat" src="img/maszyny-rolnicze.jpg" cover alt="" >
+            <h2>Używany Sprzęt Rolniczy </h2> 
+           <p>Duzy wybór maszyn...</p>
+             <br> <br>  <br><span id="button"><a href="#">Sprawdź</a></span>
+           
+           </div>
+           
+           <div class="imgToRotate" ><img class="imgToRotat" src="img/maszyny-rolnicze-2.jpg" cover alt=""  >
+          
+           <h2>Używany Sprzęt Rolniczy </h2> 
+           <p>Duzy wybór maszyn...</p>
+             <br> <br>  <br><span id="button"><a href="#">Sprawdź</a></span>
+               
+           
+           
+           </div>
+          <div class="imgToRotate" > <img class="imgToRotat" src="img/maszyny-rolnicze-3.jpg" cover alt="">
+           <h2>Używany Sprzęt Rolniczy </h2> 
+           <p>Duzy wybór maszyn...</p>
+             <br> <br>  <br><span id="button"><a href="#">Sprawdź</a></span>
+          </div>
+        
+           
+           </div>
+           <br><br><br>
+     <div id="noweOferty">
+        <fieldset>
+         <legend> Nasze Najnowsze Oferty</legend>
+         <div class="row" id="nowaoferta1">
+               
+               <div class="info">
+                   
+                   <b>Nowość</b>
+                   
+              
+                
+                <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+             <div class="infof1">
+                
+               <p><b>Model  &nbsp   </b>Zetor XXx</p>
+                  <p><b>Rok  &nbsp  </b>2000</p>
+                 <p><b>Cena:&nbsp  </b>30000 zł</p>
+                   
+               </div>
+                </div>
+         </div>
+         
+          <div  class="row" id="nowaoferta2">
+              <div class="info">
+                   
+                   <b>Nowość</b>
+                   
+               
+                
+                <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+             <div class="infof1">
+                
+               <p><b>Model &nbsp </b>Zetor XXx</p>
+                  <p><b>Rok &nbsp </b>2000</p>
+                 <p><b>Cena: &nbsp </b>30000 zł</p>
+                   
+               </div>
+               </div>
+             
+         </div>
+          <div  class="row" id="nowaoferta3">
+            <div class="info">
+                   
+                   <b>Nowość</b>
+                   
+               
+                
+                <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+             <div class="infof1" >
+                
+               <p><b>Model&nbsp  </b>Zetor XXx</p>
+                  <p><b>Rok &nbsp    </b>2000</p>
+                 <p><b>Cena:   &nbsp    </b>30000 zł</p>
+                   
+               </div>
+             </div>
+         </div>
+         </fieldset>
+     </div>
+       <br><br><br>
+       <div id="ofirmie">
+           <div id="firma">
+               
+               <div id="tekstofirimie">
+                <h2>O firmie ...</h2>
+                <br>
+                <p>Od ponad 20 lat działamy na rynku używanych maszyn rolniczych. Sprzęt sprowadzamy głównie z Danii. Drugim sektorem naszej działalności jest sprzedaż używanego sprzętu budowlanego. Oferowane przez nas maszyny są zawsze sprawdzone i przygotowane do pracy. Nasza firma jest dealerem nowych maszyn z zakresu przygotowania gleby i siewu firmy Kongskilde.
+<br><br>
+                W naszej firmie, stawiamy na jakość. Posiadamy profesjonalne zaplecze warsztatowe, które w połączeniu z doświadczeniem naszych mechaników gwarantuje pełną sprawność techniczną maszyn. Przeprowadzamy remonty częściowe i kapitalne. Kupując w Puławski używane maszyny rolnicze, masz pewność, że maszyna nie posiada ukrytych wad.
+<br><br>
+                Zapraszamy do zapoznania się z pełną ofertą!</p>
+               </div>
+               <div id="lokalizacjafirmy">
+                <h2 id="tekstlokalizacja">Tu nas znajdziesz ...</h2>
+                <br>
+               
+                  <div  style="width: 100%"><iframe id="google" width="100%" height="300px" src="https://maps.google.com/maps?width=100%&amp;height=350&amp;hl=en&amp;coord= 51.7311 ,21.797876&amp;q=%20Korytnica%2061%2C%2008-455%20Korytnica+(PHU%20Zwolski)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed" frameborder="2px" scrolling="no" marginheight="0" marginwidth=""><a href="https://www.maps.ie/map-my-route/">Map a route</a></iframe>
+               </div>    
+            
+           </div>
+       </div>
+        </div>
+        <br>
+        <footer>
+            
+            P.H.U. Zwolski   <strong>Używane maszyny rolnicze</strong>   &copy; 2019 created by Marcin Zwolski
+        </footer>
+      
+   </container>
+     
+   
+   
+   
+    <script src="main.js"></script>
 </body>
 </html>
