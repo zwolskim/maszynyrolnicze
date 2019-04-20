@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dane z http://pl.wikipedia.org/wiki/Wojew%C3%B3dztwa -->
+<Województwa>
+	
+	<Województwo>
+		<Nazwa>dolnośląskie</Nazwa>
+		<Powierzchnia jednostka="km2">19 946,77</Powierzchnia>
+		<Ludność>2878410</Ludność>		
+	</Województwo>
+	
+	<Województwo> 
+		<Nazwa>kujawsko-pomorskie</Nazwa>
+		<Powierzchnia jednostka="km2">17 971,69</Powierzchnia>
+		<Ludność>2066136</Ludność>		
+	</Województwo>
+
+	<Województwo>
+		<Nazwa>lubelskie</Nazwa>
+		<Powierzchnia jednostka="km2">25 122,50</Powierzchnia>
+		<Ludność>2166213</Ludność>		
+	</Województwo>
+	
+	<Województwo> 
+		<Nazwa>lubuskie</Nazwa>
+		<Powierzchnia jednostka="km2">13 987,88</Powierzchnia>
+		<Ludność>1008481</Ludność>		
+	</Województwo>	
+	
+	<Województwo> 
+		<Nazwa>łódzkie</Nazwa>
+		<Powierzchnia jednostka="km2">18 218,96</Powierzchnia>
+		<Ludność>2555898</Ludność>		
+	</Województwo>		
+	
+	<Województwo>
+		<Nazwa>małopolskie</Nazwa>
+		<Powierzchnia jednostka="km2">15 182,79</Powierzchnia>
+		<Ludność>3279036</Ludność>		
+	</Województwo>	
+	
+	<Województwo> 
+		<Nazwa>mazowieckie</Nazwa>
+		<Powierzchnia jednostka="km2">35 558,14</Powierzchnia>
+		<Ludność>5188488</Ludność>		
+	</Województwo>	
+	
+	<Województwo>
+		<Nazwa>opolskie</Nazwa>
+		<Powierzchnia jednostka="km2">9 411,67</Powierzchnia>
+		<Ludność>1037088</Ludność>
+	</Województwo>		
+	
+	<Województwo> 
+		<Nazwa>podkarpackie</Nazwa>
+		<Powierzchnia jednostka="km2">17 845,73</Powierzchnia>
+		<Ludność>2097338</Ludność>		
+	</Województwo>	
+	
+	<Województwo> 
+		<Nazwa>podlaskie</Nazwa>
+		<Powierzchnia jednostka="km2">20 187,01</Powierzchnia>
+		<Ludność>1192660</Ludność>		
+	</Województwo>
+	
+	<Województwo> 
+		<Nazwa>pomorskie</Nazwa>
+		<Powierzchnia jednostka="km2">18 310,22</Powierzchnia>
+		<Ludność>2210920</Ludność>		
+	</Województwo>		
+		
+	<Województwo> 
+		<Nazwa>śląskie</Nazwa>
+		<Powierzchnia jednostka="km2">12 333,51</Powierzchnia>
+		<Ludność>4654115</Ludność>		
+	</Województwo>		
+	
+	<Województwo> 
+		<Nazwa>świętokrzyskie</Nazwa>
+		<Powierzchnia jednostka="km2">11 710,20</Powierzchnia>
+		<Ludność>1275550</Ludność>		
+	</Województwo>
+	
+	<Województwo> 
+		<Nazwa>warmińsko-mazurskie</Nazwa>
+		<Powierzchnia jednostka="km2">24 173,35</Powierzchnia>
+		<Ludność>1426155</Ludność>		
+	</Województwo>	
+	
+	<Województwo> 
+		<Nazwa>wielkopolskie</Nazwa>
+		<Powierzchnia jednostka="km2">29 826,51</Powierzchnia>
+		<Ludność>3386882</Ludność>		
+	</Województwo>	
+	
+	<Województwo> 
+		<Nazwa>zachodniopomorskie</Nazwa>
+		<Powierzchnia jednostka="km2">22 892,48</Powierzchnia>
+		<Ludność>1692271</Ludność>		
+	</Województwo>	
+				
+</Województwa>

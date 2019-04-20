@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <title>Maszyny Rolnicze</title>
-    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="subone.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>  
-    <script type="text/javascript" src="Ajax.js"></script>
     
     
 </head>
@@ -21,9 +21,9 @@
 			 <button id="menu-button">MENU</button>
 		</div>
 		<div class="col" id="search">
-			<form class="form" id="button" role="search" method="POST" action="http://localhost/Maszyny/wyszukiwarka.html" >
-				<input class="formsearch" autocomplete="off" type="text" value name="s" placeholder="Wyszukaj ciągnik, maszynę..."/>
-				<button  onclick="suggestBox()" type="submit" class="search_button">Szukaj</button>
+			<form class="form" role="search" method="GET" action="https://www.roltechagro.pl" >
+				<input class="formsearch" autocomplete="off" type="text" value="" name="s" placeholder="Wyszukaj ciągnik, maszynę..."/>
+				<button type="submit" class="search_button">Szukaj</button>
 			</form>
 		</div>
 		<div class="col" id="contact">
@@ -46,70 +46,27 @@
               <ul id="menu">
                  
                   <li><a href="">Ciągniki</a>
-                   <ul>
-                       <li><a href="">Ursus</a></li>
-                       <li><a href="">New Holland</a></li>
-                       <li><a href="">Fendt</a></li>
-                       <li><a href="">Case</a></li>
-                       <li><a href="">Pozostałe</a></li>
-                   </ul>
+                 
                   </li>
                   <li><a href="">Kombajny</a>
-                   <ul>
-                       <li><a href="">New Holland</a></li>
-                       <li><a href="">Massey Ferguson</a></li>
-                       <li><a href="">Bizon</a></li>
-                       <li><a href="">Pozostałe</a></li>
-                       
-                    </ul>
+                   
                    </li>
                   <li><a href="">Pozostałe Maszyny</a>
-                   <ul>
-                       <li><a href="">Pługi</a></li>
-                       <li><a href="">Glebogryzarki</a></li>
-                       <li><a href="">Siewniki</a></li>
-                       <li><a href="">Inne</a></li>
-                    </ul>
+                   
                   </li>
-                  <li><a href="">Część do Maszyn</a></li>
+                  <li><a href="">Części do Maszyn</a></li>
                   <li><a href="">Transport</a></li>
               </ul>
        	    
        	</nav>
 <br><br><br><br>
       
-       <div id="galeria">
-          <div class="imgToRotate" >
-          
-           <img class="imgToRotat" src="img/maszyny-rolnicze.jpg" cover alt="" >
-            <h2>Używany Sprzęt Rolniczy </h2> 
-           <p>Duzy wybór maszyn...</p>
-             <br> <br>  <br><span id="button"><a href="#">Sprawdź</a></span>
-           
-           </div>
-           
-           <div class="imgToRotate" ><img class="imgToRotat" src="img/maszyny-rolnicze-2.jpg" cover alt=""  >
-          
-           <h2>Używany Sprzęt Rolniczy </h2> 
-           <p>Duzy wybór maszyn...</p>
-             <br> <br>  <br><span id="button"><a href="#">Sprawdź</a></span>
-               
-           
-           
-           </div>
-          <div class="imgToRotate" > <img class="imgToRotat" src="img/maszyny-rolnicze-3.jpg" cover alt="">
-           <h2>Używany Sprzęt Rolniczy </h2> 
-           <p>Duzy wybór maszyn...</p>
-             <br> <br>  <br><span id="button"><a href="#">Sprawdź</a></span>
-          </div>
-        
-           
-           </div>
+     
            <br><br><br>
-     <div id="noweOferty">
-        <fieldset>
-         <legend> Nasze Najnowsze Oferty</legend>
-         <div class="row" id="nowaoferta1">
+     <div id="oferty">
+        <div id="contain">
+            <div>Kombajny</div>
+<div class="row" id="nowaoferta1">
                
                <div class="info">
                    
@@ -163,7 +120,94 @@
                </div>
              </div>
          </div>
-         </fieldset>
+            
+            <div class="row" id="nowaoferta1">
+               
+               <div class="info">
+                   
+                   <b>Nowość</b>
+                   
+              
+                
+                <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+             <div class="infof1">
+                
+               <p><b>Model  &nbsp   </b>Zetor XXx</p>
+                  <p><b>Rok  &nbsp  </b>2000</p>
+                 <p><b>Cena:&nbsp  </b>30000 zł</p>
+                   
+               </div>
+                </div>
+         </div>
+         
+          <div  class="row" id="nowaoferta2">
+              <div class="info">
+                   
+                   <b>Nowość</b>
+                   
+               
+                
+                <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+             <div class="infof1">
+                
+               <p><b>Model &nbsp </b>Zetor XXx</p>
+                  <p><b>Rok &nbsp </b>2000</p>
+                 <p><b>Cena: &nbsp </b>30000 zł</p>
+                   
+               </div>
+               </div>
+             
+         </div>
+          <div  class="row" id="nowaoferta3">
+            <div class="info">
+                   
+                   <b>Nowość</b>
+                   
+               
+                
+                <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+             <div class="infof1" >
+                
+               <p><b>Model&nbsp  </b>Zetor XXx</p>
+                  <p><b>Rok &nbsp    </b>2000</p>
+                 <p><b>Cena:   &nbsp    </b>30000 zł</p>
+                   
+               </div>
+             </div>
+         </div>
+        </div>
+         <nav id="nawigacja">
+             <div id="intro"> Katalog maszyny rolniczych </div>
+             <div id="lista">
+                 <ul id="menuBoczne">
+                    <li><a href="">Ciągniki Rolnicze (<span></span>)</a>
+                   <ul>
+                       <li><a href=""> Ursus (<span></span>)</a></li>
+                       <li><a href=""> New Holland (<span></span>)</a></li>
+                       <li><a href=""> Fendt (<span></span>)</a></li>
+                       <li><a href=""> Case (<span></span>)</a></li>
+                       <li><a href=""> Pozostałe (<span></span>)</a></li>
+                   </ul>
+                  </li>
+                  <li><a href="">Kombajny (<span></span>)</a>
+                   <ul>
+                       <li><a href="">New Holland (<span></span>)</a></li>
+                       <li><a href="">Massey Ferguson (<span></span>)</a></li>
+                       <li><a href="">Bizon (<span></span>)</a></li>
+                       <li><a href="">Pozostałe (<span></span>)</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="">Pługi (<span></span>)</a></li>
+                    <li><a href="">Glebogryzarki (<span></span>)</a></li>
+                    <li><a href="">Siewniki (<span></span>)</a></li>
+                    <li><a href="">Inne (<span></span>)</a></li>
+                   <li><a href="">Części do Maszyn (<span></span>)</a></li>
+                 </ul>
+                 
+                 
+                 
+             </div>
+         </nav>
      </div>
        <br><br><br>
        <div id="ofirmie">
@@ -172,9 +216,7 @@
                <div id="tekstofirimie">
                 <h2>O firmie ...</h2>
                 <br>
-                <p>Od ponad 20 lat działamy na rynku używanych maszyn rolniczych. Sprzęt sprowadzamy głównie z Danii. Drugim sektorem naszej działalności jest sprzedaż używanego sprzętu budowlanego. Oferowane przez nas maszyny są zawsze sprawdzone i przygotowane do pracy. Nasza firma jest dealerem nowych maszyn z zakresu przygotowania gleby i siewu firmy Kongskilde.
-<br><br>
-                W naszej firmie, stawiamy na jakość. Posiadamy profesjonalne zaplecze warsztatowe, które w połączeniu z doświadczeniem naszych mechaników gwarantuje pełną sprawność techniczną maszyn. Przeprowadzamy remonty częściowe i kapitalne. Kupując w Puławski używane maszyny rolnicze, masz pewność, że maszyna nie posiada ukrytych wad.
+                <p>Zapraszamy do zpoznania sie z nasz oferta adres itp itp itp ........
 <br><br>
                 Zapraszamy do zapoznania się z pełną ofertą!</p>
                </div>

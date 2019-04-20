@@ -190,204 +190,105 @@ padding: 6px;
     border-top-right-radius: 28px;
       
 }
-   #menu > li ul li a 
-{
-    
-    padding: 9.5% 5%;
- 
-    transition: 1s;
-    text-align: center;
-    
-    
-}
-#menu > li ul li
-{
   
-    border-bottom: 1px solid white;
-    border-right: 2px solid white;
-    width: 100%;
+    
 
    
     
-}
-#menu > li  ul li:last-child a
-{
-    border-bottom-right-radius: 28px;
-}
-    #menu > li  ul li:last-child 
-{
-    border-bottom-right-radius: 28px;
-}
-#menu > li ul li a:hover
-{
-      color: brown;
-    cursor: pointer;
-    background: radial-gradient(ellipse at center, rgba(233,238,231,1) 0%, rgba(233,238,231,1) 31%, rgba(88,179,55,1) 76%, rgba(88,179,55,1) 100%);
-    
-}
 
-    #menu > li ul
-{
-   
-    background: radial-gradient(ellipse at center, rgba(233,238,231,1) 0%, rgba(88,179,55,1) 0%, rgba(88,179,55,1) 100%);
-    font-size: 14px;
-        font-family: fantasy;
-    display: none;
-    transition: 1s;
-    border-bottom: 1px solid white;
-    text-align: center;
-    position: absolute;
-    z-index: 1000;
-    border-bottom-right-radius: 28px;
-    width: 99%;
-}
-
-
-#menu > li:hover ul
-{
-    display: block;
-}
 #menuHeader
 {
     margin: 0 auto;
     width:  85%;
 }
-#galeria
+    #oferty
 {
-    
-     margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 400px;
-   
-   
-}
+    overflow:hidden;
+     width: 100%;
+    height: auto;
 
-.imgToRotate
+} 
+#nawigacja
 {
-    position: absolute;
-    height: 400px;
-    width: 100%;
-    display: none;
-  
-    margin: 0 auto;
-  
-}
-.imgToRotat
-{
-    width: 100%;
-   max-height: 100%;
-    overflow: hidden;
-    
-}
-.current
-{
-    display: block;
-    
-}
-.imgToRotate h2
-{
- margin-top: -23%;
-    margin-left: 35%;
-  
-    color: aliceblue;
-    text-shadow:      2px   0  0   #000, 
-    -2px   0  0   #000, 
-     0    2px 0   #000, 
-     0   -2px 0   #000, 
-     1px  1px 0   #000, 
-    -1px -1px 0   #000, 
-     1px -1px 0   #000, 
-    -1px  1px 0   #000,
-     1px  1px 5px #000; 
-    
-      font-size: 4em;
-   
-}
-.imgToRotate p
-{
-   margin-top: 2%;
-    color: aliceblue;
-        
-text-shadow:      2px   0  0   #000, 
-    -2px   0  0   #000, 
-     0    2px 0   #000, 
-     0   -2px 0   #000, 
-     1px  1px 0   #000, 
-    -1px -1px 0   #000, 
-     1px -1px 0   #000, 
-    -1px  1px 0   #000,
-     1px  1px 5px #000; 
-    
-    margin-left: 56%;
-    font-size: 45px;
-}
-.imgToRotate span
-{
-     
-    border: 1px solid #dbdbdb;
-    
-    background-color: aliceblue;
-   perspective: 600;
-    font-size: 25px;
-    cursor: pointer;
-   padding: 1% 4%;
-    margin-left: 69%;
-    border-radius: 7px;
-    opacity: 0.8;
-    box-shadow: 3px 3px 5px 0px rgba(48,43,48,1), 0px 9px 10px rgba(0,0,0,0.7) ;
-    transition: 0.3;
-}
-.imgToRotate span:hover
-{
-    opacity: 1;
-}
-.imgToRotate span:active
-{
-    box-shadow: 3px 3px 5px 0px rgba(48,43,48,1), 0px 3px 6px rgba(0,0,0,0.9);
+    float: right;
+    height: 450px;;
+    width: 260px;
+    border: 1px solid #000;
     position: relative;
-    top: 4px;
+    top: 120px;
+    right: 30px;
+}
+#contain
+{
+width: 73%;
+border: 1px solid #000;
+    float: left;
+    padding: 0 12px;
+    margin-left: 20px;
+    height: auto;
+  
+    }
+#intro
+{
+    height: 20px;
+    border: 1px solid #000;
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 20px;
+    padding: 7px 7px;
+  
+}
+#lista
+{
+    
+    text-align: left;
+    padding: 4px 3px;
+   
+    color: aliceblue;
+    background-color: rgba(88,179,55,1);
 }
 
-.imgToRotate span a
+#menuBoczne  a 
+
 {
     text-decoration: none;
-    color: rgba(88,179,55,1);
-    transform: rotateX(40deg);
-    
-     
+     color: aliceblue;
+    margin-left: 5px;
 }
-
-
-
-fieldset
+#menuBoczne  a:hover
 {
-   
-     width: 83%;
-    height: 440px;
-    border: none;
-    border-top: 20px solid #58a130;
+    color: aqua;
+    cursor: pointer;
 }
-legend
+#menuBoczne  ul
 {
-   
-    color: white;
-    font-size: 40px;
-    padding: 10px 40px;
-    
-    background-color:#58a130;
-    border-radius: 30px;
-  
+    margin-left: 15px;
+    font-size: 18px;
+    padding: 4px 0 ;
+    list-style: disc;
+    list-style-position: inside
+}
+#menuBoczne >li
+{
+    font-size: 20px;
+    padding: 2px 0;
+    list-style: none;
+}
+#menuBoczne:first-child 
+{
+    padding-top: 10px;
 }
 .row
 {
     
     width: 30%;;
     height: 300px;
-    margin-left: 30px;
-    margin-top: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
     float: left;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 35px;
     cursor: pointer;
 }
 
@@ -402,6 +303,14 @@ legend
     padding: 5px;
     
 }
+#nazwa
+{
+    text-align: center;
+    font-size: 34px;
+    text-transform: uppercase;
+    
+
+} 
 .infof1 p 
 {
     text-align: center;
@@ -604,6 +513,19 @@ footer strong
   } 
            /*MEDIA*/
         
+@media screen and (max-width: 1288px)
+{
+    #nawigacja
+{
+    float: right;
+    height: 450px;;
+    width: 250px;
+    border: 1px solid #000;
+    position: relative;
+    top: 120px;
+    right: 20px;
+}
+}
 
 @media screen and (max-width: 1170px)
 {
@@ -651,77 +573,59 @@ footer strong
    border-right: 2px solid white;
     
 }
-    .imgToRotate h2
+    #nawigacja
 {
-margin-top:   -23%;
-    margin-left: 35%;
-  
-    color: aliceblue;
-    text-shadow:      2px   0  0   #000, 
-    -2px   0  0   #000, 
-     0    2px 0   #000, 
-     0   -2px 0   #000, 
-     1px  1px 0   #000, 
-    -1px -1px 0   #000, 
-     1px -1px 0   #000, 
-    -1px  1px 0   #000,
-     1px  1px 5px #000; 
-    
-      font-size: 40px;
-   
+    float: right;
+    height: 450px;;
+    width: 220px;
+    border: 1px solid #000;
+    position: relative;
+    top: 120px;
+    right: 5px;
 }
-.imgToRotate p
+    #intro
 {
-   margin-top: 2%;
-    color: aliceblue;
-        
-text-shadow:      2px   0  0   #000, 
-    -2px   0  0   #000, 
-     0    2px 0   #000, 
-     0   -2px 0   #000, 
-     1px  1px 0   #000, 
-    -1px -1px 0   #000, 
-     1px -1px 0   #000, 
-    -1px  1px 0   #000,
-     1px  1px 5px #000; 
-    
-    margin-left: 56%;
-    font-size: 30px;
-}
-.imgToRotate span
-{
-     
-    border: 1px solid #dbdbdb;
-    
-    background-color: aliceblue;
-   perspective: 600;
-    font-size: 23px;
-    cursor: pointer;
-   padding: 1% 3%;
-    margin-left: 69%;
-    border-radius: 5px;
-    opacity: 0.8;
-    box-shadow: 3px 3px 5px 0px rgba(48,43,48,1), 0px 9px 10px rgba(0,0,0,0.7) ;
-    transition: 0.3;
-}
-fieldset
-{
-   
-     width: 100%;
-    height: 440px;
-    border: none;
-    border-top: 20px solid #58a130;
-}
-legend
-{
-   
+    height: 20px;
+    border: 1px solid #000;
     color: white;
-    font-size: 34px;
-    padding: 10px 30px;
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 5px;
+}
+    #menuBoczne  ul
+{
+    margin-left: 15px;
+    font-size: 16px;
+    padding: 4px 0 ;
+    list-style: disc;
+    list-style-position: inside
+}
+#menuBoczne >li
+{
+    font-size: 18px;
+    padding: 2px 0;
+    list-style: none;
+}
+    .row
+{
     
-    background-color:#58a130;
-    border-radius: 30px;
-  
+    height: 240px;
+    margin-bottom: 30px;
+}
+    .infof1
+{
+    margin-top: -50px;
+    height: 66px;
+}
+    
+#ofirmie
+{
+    width: 100%;
+    height: 430px;
+    background-color:#50852d;
+	
+        
 }
         .logo
 {
@@ -740,14 +644,28 @@ font-size: 14px;
   display: none;
     
     }}
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1028px)
 {
        #menuHeader
     {
     margin: 0 auto;
     width:  98%;
     }
+    #contain
+{
+    padding: 0 10px;
+    margin-left: 10px;
+    width: 70%;
+
+  
+    }
+    .row
+{
+    margin-left: 15px;
+ 
+    margin-bottom: 25px;
     
+}
     footer strong
 {
     margin: 0px 20%;
@@ -758,25 +676,7 @@ font-size: 14px;
    
   margin-top: -40px;
 }
-        #galeria
-{
-    
-   height: 200px;
-   
-   
-}
-     .imgToRotate h2
-{
-margin-top:   -20%;
-    margin-left: 45%;
-  
-    }
-    .imgToRotate
-{
-   
-   height:  200px;
-  
-    }
+ 
     #menu > li > a
 {
     
@@ -849,61 +749,7 @@ font-size: 12px;
     margin: 0px 10%;
     padding-left: 10px;
 }
-    .imgToRotate h2
-{
-margin-top:   -23%;
-    margin-left: 45%;
-  
-    color: aliceblue;
-    text-shadow:      2px   0  0   #000, 
-    -2px   0  0   #000, 
-     0    2px 0   #000, 
-     0   -2px 0   #000, 
-     1px  1px 0   #000, 
-    -1px -1px 0   #000, 
-     1px -1px 0   #000, 
-    -1px  1px 0   #000,
-     1px  1px 5px #000; 
-    
-      font-size: 34px;
-   
-}
-    #galeria
-{
-    
-    max-height: 300px;
-   
-   
-}
-    .imgToRotate
-{
-   
-    max-height:  300px;
-  
-    }
 
-.imgToRotate p
-{
-   margin-top: 2%;
-     margin-left: 65%;
-    font-size: 24px;
-}
-.imgToRotate span
-{
-     
-    border: 1px solid #dbdbdb;
-    
-    background-color: aliceblue;
-   perspective: 600;
-    font-size: 20px;
-    cursor: pointer;
-   padding: 1% 2.0%;
-    margin-left: 79%;
-    border-radius: 5px;
-    opacity: 0.8;
-    box-shadow: 3px 3px 5px 0px rgba(48,43,48,1), 0px 9px 10px rgba(0,0,0,0.7) ;
-    transition: 0.3;
-}
 }
 @media screen and (min-width: 720px) {
      #menu {display: block !important;}
@@ -972,64 +818,16 @@ margin-top:   -23%;
     float: left;
     font-size: 16px;
     margin-top: -5px;
-  
-     
-     
-}
-   .imgToRotate h2
-{
- margin-top: -15%;
-    margin-left: 26%;
-  
-
     
-      font-size: 20px;
-   
-}
-.imgToRotate p
-{
-visibility: hidden;
-}
-.imgToRotate span
-{
-     
- visibility: hidden;
-}
-    
-    #galeria
-    {
-        visibility: visible;
-        height:  120px;;
     }
-   legend
-{
-   
-    color: #58a130;
-    font-size: 30px;
-    
-  
-    width: 100%;
-    padding: 10px 0px;
-    
-    background-color:#58a130;
-    border-radius: 0;
-  
-    
-    background-color:white;
-  
-}
-    
 
-   fieldset
- {
-   
-    border: none;
-    }
+
     #noweOferty
 {
-    overflow: hidden;
- width: 100%;
-}
+    overflow:hidden;
+     width: 100%;
+    
+} 
     .row
 {
     

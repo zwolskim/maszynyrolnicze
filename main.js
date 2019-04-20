@@ -1,3 +1,4 @@
+ 
 $("document").ready(
 	function()
 	{	
@@ -108,6 +109,7 @@ function secendFunction()
     
 }
     
- 
+ var gallery = $('.gallery a').simpleLightbox();
+
     
     
